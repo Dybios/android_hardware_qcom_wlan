@@ -579,7 +579,7 @@ wifi_error init_wifi_vendor_hal_func_table(wifi_hal_fn *fn) {
     /* Customers will uncomment when they want to set qpower*/
     //fn->wifi_set_qpower = wifi_set_qpower;
 #ifdef WCNSS_QTI_AOSP
-    fn->wifi_add_or_remove_virtual_intf = wifi_add_or_remove_virtual_intf;
+    //fn->wifi_add_or_remove_virtual_intf = wifi_add_or_remove_virtual_intf;
     fn->wifi_set_latency_mode = wifi_set_latency_mode;
 #endif
 
